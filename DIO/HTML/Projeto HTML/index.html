@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumão dos Estudos</title>
+</head>
+<body>
+    <h1 id="inicio">Resumão dos Estudos - Parte 1</h1>
+    <hr>
+    <h1>Sumário</h1>
+    <p>
+        <strong>Entendendo Comunicação Client x Server</strong>
+    </p>
+    <ol>
+        <li><a href="#historia">Hisória da WEB</a></li>
+        <ul type="square">
+            <li><a href="#historia-dos-computadores">História dos Computadores</a></li>
+            <li><a href="#surgimento-internet">Como Surgiu a Internet</a></li>
+            <li><a href="#grandes-nomes"></a>Grandes Nomes</li>
+        </ul>
+        <li><a href="#quem-sao-os-clients">Quem São os "Clients" da Relação</a></li>
+        <ul type="square">
+            <li><a href="#client">Client no Linguajar WEB</a></li>
+            <li><a href="#navegadores">Navegadores</a></li>
+            <li><a href="#aplicacoes">Aplicações WEB</a></li>
+            <li><a href="#dispositivos">Dispositivos Móveis</a></li>
+        </ul>
+        <li><a href="#quem-sao-servidores">Quem São os Servidores da Relação</a></li>
+        <ul type="square">
+            <li><a href="#servidores">Sobre servidores</a></li>
+            <li><a href="#hardwares e softwares">Hardwares e Softwares em Servidores</a></li>
+            <li><a href="#tipos-de-servidores">Tipos de Servidores
+            </a></li>
+            <li><a href="#hospedagem">Hospedagem de Sites</a></li>
+        </ul>
+        <li><a href="#html-linguagem">HTML - Linguagem de Programação?</a></li>
+        <ul type="square">
+            <li><a href="#linguage-de-programacao">O que é Uma Linguagem de Programação</a></li>
+            <li><a href="#client-side">Client-side</a></li>
+            <li><a href="#server-side">Server-side</a></li>
+            <li><a href="#html-nao">HTML Não é Linguagem de Programação!</a></li>
+        </ul>
+    </ol>
+    <p>
+        <strong>HTML na Prática</strong>
+    </p>
+    <ol>
+        <li><a href="#introducao-html">Introdução ao HTML na Prática</a></li>
+        <ul type="square">
+            <li><a href="#apresentacao">Apresentando o Conteúdo</a></li>
+            <li><a href="#ferramentas">Ferramentas Utilizadas</a></li>
+            <li><a href="#inspetor">Inspetor de Elementos</a></li>
+            <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+            <li><a href="#falando-tags">Falando Sobre Tags</a></li>
+            <li><a href="#atributos-tags">Atributos das Tags</a></li>
+            <li><a href="#textos">Textos</a></li>
+            <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+    </ol>
+    <hr>
+    <h2 id="client-server">Client x Server <small><a href="#inicio">(Voltar)</a></small></h2>
+    <h3 id="historia">História da WEB <small><a href="#inicio">(Voltar)</a></small></h3>
+    <p>
+        Para entendermos melhor sobre os nossos estudos, primeiro temos que entender de onde surgiu as nossas ferramentas, e com isso, vamos aprender a História da WEB.
+    </p>
+    <h4 id="historia-dos-computadores">História dos Computadores</h4>
+    <h5>1ª Geração (1940 – 1956)</h5>
+    <p>
+        Foi uma geração que teve seu inicio no meio da segunda guerra mmundial, e a maior parte dos computadores criados, tinha o objetivo de auxiliar os militares com cálculos, como trajeto de bala, por exemplo.
+    </p>
+    <ol type="I">
+        <li>Harvard Mark 1 (1944)&#x1F5B3</li>
+        <img width="650" src="Imagens/Mark1.jpeg" alt="Harvard Mark 1" title="Harvard Mark 1 - 1944">
+        <p>
+            Este monstro pré-histórico, é considerado o primeiro computador <del>(mesmo tendo outros projetos antes dele)</del>, ele tinha como sua base de construção válvulas, e era eletromecânico.
+        </p>
+        <li>Colossus (1946)&#x1F5B3</li>
+        <img width="650" src="Imagens/Colossus.jpg" alt="Colossus (1946)" title="Colossus - 1946">
+        <p>
+            O Colossus foi criado na Alemanhã, foi utilizado especialmente para cálculos e criptoanalises, ou seja, ele também era responsável sobre a descriptografia das mensagens nazistas.
+        </p>
+        <li>Eniac (1946)&#x1F5B3</li>
+        <img width="650" src="Imagens/Eniac.jpg" alt="Eniac (1946)" title="Eniac - 1946">
+        <p>
+            E da mesma forma que a Alemanha tinha o Colossus, os EUA não perderam muito tempo, e lançaram o Eniac, só que o seu principal uso, era para calcular trajetórias balísticas.&#x1F41B&#x1F41B&#x1F41B
+        </p>
+    </ol>
+    <blockquote>
+        Curiosidade - Um dos principais termos que usamos hoje, foi criado nessa época, o termo "Bug", só que este termo foi criado por conta da quantidade de insetos que apareciam nos componentes, e isso acontecia por conta da temperatura das máquinas que esquentavao muito na época.
+    </blockquote>
+    <h5>2ª Geração (1956 – 1963)</h5>
+    <p>
+        Na segunda geração, tivemos a criação dos transistores, o que acarretou na diminuição dos computadores, e deixaram de ser enormes como o Eniac e o Colossus, e passaram a ser portáteis (<del>tinham o tamanho de uma mesa</del>).
+    </p>
+    <img width="650" src="Imagens/IBM 1620.jpg" alt="IBM 1620 (1959)" title="IBM 1620 - 1959">
+    <blockquote>
+        Curiosidade - Para eles, a idéia de portátil na época, era conseguirem levar o computador de uma sala para outra.
+    </blockquote>
+    <h5>3ª Geração (1964 – 1971)</h5>
+    <p>
+        "Parece que o jogo virou, não é mesmo?"
+    </p>
+    <img width="650" src="Imagens/3ª geração.jpg" alt="Original Apple II">
+    <p>
+        Nessa geração, tivemos criações de novos componentes, e adapações de outros para conseguir diminuir ainda mais os computadores, e começar a trazer a forma que termos hoje em dia, como:
+    </p>
+    <ul>
+        <li>Transistor</li>
+        <li>Capacitores</li>
+        <li>Resistores</li>
+    </ul>
+    <p>
+        E a partir daqui, tivemos computadores realmente menores, e agora sim eles começaram a ser portáteis.
+    </p>
+    <h5>4ª Geração (1971 - presente)</h5>
+    <p>
+        Essa geração é formada por computadores da forma que conhecemos hoje, que possuem circuitos integrados, microprocessadores, microchips...
+        <br>
+        O que mais marca a geração atual, é o surgimento do PC (Personal Computer - Computador Pessoal).
+    </p>
+    <blockquote>
+        Curiosidade - Na 4ª geração, a Apple, foi responsável por uma das principais revoluções dos computadores, eles foram responsáveis pela criação do mouse.
+    </blockquote>
+    <h5>Bônus - 5º Geração (2023?)</h5>
+    <p>
+        Algumas pessoas começaram a mencionar que já entramos na 5ª geração, com a criação de computadores quânticos, criptomoedas, IA's, metaverso, entre outras criações.(<Mark><del>Apenas boatos até o momento</del></Mark>)
+    </p>
+    <h4 id="surgimento-internet">Como Surgiu a Internet</h4>
+    <p>
+        Uma das primeiras ligações de uma grande distância que tivemos, foi em 1958, onde foi traçado um cabo entre dois continentes, para que as pessoas pudessem se comunicar com um telégrafo.
+        <br>
+        <img width="650" src="Imagens/telegrafo.JPG" alt="Telégrafo museudocumbe.com" title="Telégrafo">
+        <br>
+        Mas fora essa pequena curiosidade, para entendermos melhor sobre a criação da <strong>Internet</strong>, precisamos entender também que ela foi criada no meio da <strong><mark>Segunda Guerra Mundial</mark></strong>, em que uma das princiapais competições que tivemos, foi a <strong>Corrida Espacial</strong>&#x1F680, o que incentivou o investimento tecnológico da época.
+        <br>
+        Juntando as competições tecnológicas, e uma teoria de uma rede "galática" de Licklider, começaram a surgir  pesquisas dentro da DARPA (agência de estudos tecnológicos militares), para a criação de uma rede de comunicação, e com isso, após muitos estudos, surgiu a Arpanet.
+        <br>
+        Uma das suas principais funções inicias, foi para a descentralização de backups das informações dos centros de pesquisas, para que nada fosse perdido, caso acontecesse algum desastre militar.
+        <br>
+        E no dia 29/10/1969, foi feita a primeira conexão da Arpanet, entre a Universidade da Califórnia, e o Instituto de Pesquisas de Standford, em que foi tentado transmitir a palavra "LOGIN", porém, como era tudo muito estável, só chegou a primeira sílaba, "LO", portanto, junto da primeira conexão, no dia 29/10/1969, também tivemos a primeira queda de conexão&#x1F602.
+        <br>
+        Depois que conseguiram estabilizar as conexões, começaram a surgir mais pontos, só que na época, cada computador, tinha a sua própria linguagem, e foi necessário criar o <strong>NCP</strong> (<strong>N</strong>etwork <strong>C</strong>ontrol <strong>P</strong>rotocol), para que houvesse uma comunicação entre eles.
+    </p>
+    <p>
+        Nesses primeiros passos da internet, as conexões eram feitas sempre entre dois únicos pontos, ou seja, quando a Casa A, ligava para Casa B, as outras casas ficavam incomunicáveis, e enquanto a Casa A estivesse "falando", a Casa B ficava "muda".
+        <br>
+        E em 1974, Bob Kahn, criou o protocolo <strong>TCP</strong> (<strong>T</strong>ransmission <strong>C</strong>ontrol <strong>P</strong>rotocol), para conseguir quebrar todo esse processo de que somente dois computadores pudessem se comunicar, só que mesmo com esse novo protocolo, e graças ao crescimento dos pontos de conexão, o <strong>TCP</strong> não conseguia atender a todos os pontos, então Vint Cerf, criou o <strong>IP</strong> (<strong>I</strong>nternetwork <strong>P</strong>rotocol), e a partir dai as máquinas passaram a ser identificadas por <strong>IP</strong>, e colocaram o nome desse conjunto de <strong>TCP/IP</strong>, data que ficou conhecida como <font color="orange">Flag Day</font>, e ainda usamos esses mesmos protocolos até hoje, mas já estamos na 6ª versão desse conjunto que foi criado e "juntado" em 1983.
+    </p>
+    <p>
+        Essas mudanças auxiliaram na criação de mais redes, como MILNET, NSFNET, NASA, CSNET e ESNET.
+    </p>
+    <P>
+        Só que a internet ainda não era tão "formosa", como ela é hoje, mas, em 1989, Tim-Berners-Lee, criou o protocolo <strong>WWW</strong> (<strong>W</strong>orld <strong>W</strong>ide <strong>W</strong>eb), e para que conseguissem utilizar, ele também criou um dos primeiros navegadores da internet, chamado WorldWideWeb.
+    </P>
+    <blockquote>Curiosidade - Em 6 de agosto de 1991, o Tim, também publicou a primeira página WEB.</blockquote>
+    <p>
+        E só pra fecharmos esse bloco de criações, revoluções e invenções dentro da WEB, não podemos deixar passar a criação do protocolo HTTP:// em 1993, e a criação do HTML, mais duas criações do nosso amigo Tim, e com tantas revoluções, ele hoje é considerado ao o pai da WEB.
+    </p>
+    <h4 id="grandes-nomes">Grandes Nomes</h4>
+    <p>
+        E não temos como passar pela história da WEB, sem passar por alguns nomes:
+    </p>
+    <ul>
+        <img width="150" src="Imagens/Grace.jpg" alt="Grace-Murray-Hopper" title="Grace Murray Hopper">
+        <li>Grace Murray Hopper</li>
+        <ul type="circle">
+            <li>Marinha dos Estados Unidos</li>
+            <li>Foi uma das primeiras programadoras do MARK I em 1944</li>
+            <li>Criou a <strong>linguagem de programação de alto nível*</strong> Flou-Matic (Base do COBOL)</li>
+            <li>Trouxe o termo “BUG” para a computação</li>
+        </ul>
+        <img width="150" src="Imagens/Joseph Carl Robnett Licklider.jpeg" alt="Joseph-Carl-Robnett-Licklider" title="Joseph Carl Robnett Licklider">
+        <li>Joseph Carl Robnett Licklider</li>
+        <ul type="circle">
+            <li>Recrutado pela DARPA depois de teorizar sobre uma rede “galáctica” de computadores</li>
+            <li>Plantou a “semente” da comunicação entre dois pontos distintos através do computador (na época, os computadores já se comunicavam no mesmo prédio por meio de cabos. Ele elevou o patamar, querendo implementar esta teoria entre outros lugares)</li>
+        </ul>
+        <img width="150" src="Imagens/Robert E. Kahn.jpg" alt="Robert-E.-Kahn" title="Robert E. Kahn">
+        <li>Robert E. Kahn</li>
+        <ul type="circle">
+            <li>Primeira apresentação pública da ARPANet</li>
+            <li>Apresentou o primeiro e-mail</li>
+            <li>Co-criador do TCP/IP</li>
+            <li>Primeiro a implantar o TCP/IP na ARPANet</li>
+        </ul>
+        <img width="150" src="Imagens/Tim Berners-Lee.jpg" alt="Tim-Berners-Lee" title="Tim Berners-Lee">
+        <li>Tim Berners-Lee</li>
+        <ul type="circle">
+            <li>Inventor do WWW</li>
+            <li>Diretor do World Wide Web Consortion (W3C)</li>
+            <li>Diversas homenagens, incluindo título de cavaleiro dado Rainha Elizabeth II</li>
+            <li>Popularizou o HTTP e HTML</li>
+        </ul>
+        <img width="150" src="Imagens/Marc Andreessen.jpeg" alt="Marc-Andreessen" title="Marc Andreessen">
+        <li>Marc Andreessen</li>
+        <ul type="circle">
+            <li>(re)Inventou o navegador. O netscape Navigator feito a partir do Mosaic</li>
+            <li>Tornou o navegador “amigável”, com recursos gráficos</li>
+            <li>Deteve 90% da internet na época, mas sento superado pelo Internet Explorer anos mais tarde</li>
+        </ul>
+        <img width="150" src="Imagens/Bill Gates.jpeg" alt="Bill-Gates" title="Bill Gates">
+        <li>Bill Gates</li>
+        <ul type="circle">
+            <li>Fundador da Microsoft</li>
+            <li>Equipe da Microsoft criou o Internet Explorer</li>
+            <li>Tornou acessível para todos os computadores, e com isso o acesso à internet</li>
+            <li>Ele fez com que os computadores saíssem das lojas já com o Windows, e com isso o Internet Explorer, o que popularizou a sua marca ainda mais</li>
+        </ul>
+        <img width="150" src="Imagens/Steve Jobs.jpeg" alt="Steve-Jobs" title="Steve Jobs">
+        <li>Steve Jobs</li>
+        <ul type="circle">
+            <li>Fundador da Apple</li>
+            <li>Concorrente direta da Microsoft</li>
+            <li>Popularizou o smartphone que conhecemos hoje, através do lançamento do iPhone em 29 de junho de 2007</li>
+            <li>Criador do mouse</li>
+        </ul>
+    </ul>
+    <blockquote>*Linguagem de programação de alto nível - linguagens de programação baseadas em inglês, assim não era necessário a pessoa ficar presa nos “0” e “1”.</blockquote>
+    <h3 id="quem-sao-os-clients">Quem São os "Clients" da Relação <small><a href="#inicio">(Voltar)</a></small></h3>
+    <h4 id="client">Client no Linguajar WEB</h4>
+    <ul>
+        <li>Client -  Aquele que consome a informação de algum lugar, no nosso caso, seria o dispositivo que consome a informação (Computador, Notebook, Smartphone….)</li>
+    </ul>
+    <p>Cliente &rarr; conecta na internet até localizar o servidor &rarr; devolve os arquivos para o "client"</p>
+    <p>
+        O que o servidor retorna para o seu computador, são arquivos HTML, CSS, JavaScript, Imagens…, estes são os arquivos estáticos.
+    </p>
+    <p>
+        A partir da requisição dos arquivos, o nosso computador gera um “Cache”, ou seja, o navegador salva os arquivos estáticos, para que o computador não precise ficar toda hora requisitando os mesmos arquivos do servidor (a função refresh -F5- do computador, faz uma nova requisição destes arquivos, o que pode corrigir algum erro, ou só atualizar os arquivos).
+    </p>
+    <p>
+        Para trabalhar do lado do client, você deve SEMPRE se preocupar com com as resoluções dos arquivos, e os possíveis dispositivos que o client pode acessar o seu arquivo, então temos que levar em consideração o <font color="red"><strong>Design Responsivo</strong></font> ou <font color="red"><strong>Responsividade</font></strong>.
+    </p>
+    <p>
+        E junto disso, teremos que pensar também na compatibilidade entre os navegadores. O que é mais recomendável, sempre testar no maior número possível deles, para evitar erros.
+    </p>
+    <h4 id="navegadores">Navegadores</h4>
+    <ul>
+        <li>São programas criados por empresas, utilizados para abrir/executar arquivos</li>
+        <li>Seguem padrões W3C, porém, sempre tem uma diferença ou outra de interpretação</li>
+        <li>Também chamados de “browsers”</li>
+        <li>Iniciou com o MOSAIC, passou pelo Netscape, e hoje temos uma variedade de navegadores disponíveis</li>
+        <li>Gratuitos</li>
+    </ul>
+    <p>
+        Cada navegador, tem a sua compatibilidade, e as suas definições. Ou seja, cada um recebe os dados do seu modo, e para sabermos sobre o comportamento de cada um deles, podemos ver no site <a href="https://www.w3schools.com/tags/ref_html_browsersupport.asp" title="Clique aqui e confira" target="_blank">W3 Schools</a>, onde lista todos o comportamento de cada navegador, de acordo com cada comando, e se é compatível ou não com a sua TAG.
+    </p>
+    <h4 id="aplicacoes">Aplicações WEB</h4>
+    <p>Navegador é uma aplicação web?
+        <br>
+        - <strong><font color="red">NÃO</font></strong>, Aplicações Web são soluções criadas que possuem a internet como meio de comunicação entre Client x Server, não sendo necessário a sua instalação.
+    </p>
+    <p>
+        Exemplos de aplicações WEB:
+    </p>
+    <ul>
+        <li>Facebook;</li>
+        <li>YouTube;</li>
+        <li>LinkedIn;</li>
+        <li>Twitter</li>
+    </ul>
+    <blockquote><strong>Sempre que são acessados pelos navegador</strong></blockquote>
+    <p>
+        <STRONg>NÃO</STRONg> são aplicações WEB:
+    </p>
+    <ul>
+        <li>Facebook;</li>
+        <li>YouTube;</li>
+        <li>LinkedIn;</li>
+        <li>Twitter</li>
+    </ul>
+    <blockquote><strong>Quando são acessados através de um aplicativo instalado no seu dispositivo</strong></blockquote>
+    <h4 id="dispositivos">Dispositivos Móveis</h4>
+    <p>
+        Fatos interessantes sobre a interação com dispositivos móveis:
+    </p>
+    <ul>
+        <li>9 de cada 10 latino-americanos possuem ou usam um dispositivo móvel regularmente e praticamente todos (99%) já fizeram download de algum aplicativo</li>
+        <li>22% dos usuários móveis passam 20 horas ou mais por semana na internet através dos seus smartphones</li>
+        <li>Mais de 60% dos usuários móveis de aplicativos especifícos, como LinkedIn, Twitter, Spotify e Waze, os consideram muito importantes para a sua vida cotidiana</li>
+    </ul>
+    <h3 id="quem-sao-servidores">Quem São os Servidores da Relação <small><a href="#inicio">(Voltar)</a></small></h3>
+    <h4 id="servidores">Sobre servidores</h4>
+    <p>
+        Temos diversos tipos de servidores, entre eles temos:
+    </p>
+    <ul>
+        <li>LAN - Geralmente usado em empresas, onde tem um computador central, onde ficam localizados os arquivos necessários</li>
+        <li>WEB - Servidor na própria internet</li>
+        <li>Arquivos</li>
+        <li>Segurança (Firewall)</li>
+        <li>Streaming</li>
+        <li>E-mail</li>
+        <li>Web</li>
+    </ul>
+    <p>
+        Os servidores podem ser desde um gabinete no canto da sala que distribui os arquivos necessários para os demais computadores da residência, a até mesmo data centers (conjunto de servidores), com computadores, muito mais robustos, para grandes demandas, como os usados pela Google, por exemplo.
+    </p>
+    <h4 id="hardwares e softwares">Hardwares e Softwares em Servidores</h4>
+    <p>
+        Hardwares (parte física), onde os principais são:
+    </p>
+    <ul>
+        <li>Armazemento (HDD e SSD)</li>
+        <li>Memória</li>
+        <li>Processadores</li>
+    </ul>
+    <p>
+        Softwares (parte lógica), onde os principais são:
+    </p>
+    <ul>
+        <li>Sistemas operacionais - Windows Server, Ubuntu, CentOS, Fedora, Debian, Oracle Linux (estes sistemas operacionais, são para servidores, o que acaba mudando para o que usamos nos nossos PCs)</li>
+        <li>Monitoramento</li>
+        <li>Servidores web - Apache, NGinx (servem como sistema de apoio para  os sistemas operacionais, basicamente, quando um usuário tenta entrar em um site HTTP, o sistema operacional faz o funil, e o servidor web vai processar o pedido, e vai devolver com os arquivos HTML, CSS, JavaScript, Imagens, Textos Vídeos, …)</li>
+    </ul>
+    <h4 id="tipos-de-servidores">Tipos de Servidores</h4>
+    <ul>
+        <li>Arquivos</li>
+        <li>Segurança (Firewall)</li>
+        <li>Streaming</li>
+        <li>E-mail</li>
+        <li>Web server (Apache ou Nginx, por exemplo)</li>
+        <li>Proxy - servidor que faz o mapeamento de requisitos para entrar em um site, por exemplo, uma empresa que bloqueia o facebook, ela usa um servidor proxy para fazer esse funil, ou pode ser até mesmo para login</li>
+        <li>Firewall - tem um conceito parecido com o Proxy, porém ao contrário, ele é como um sistema, que com os seus requisitos, bloqueia invasões ou entradas de arquivos maliciosos</li>
+        <li>Database server - Utiliza do web ser ou aplicações web, para fazer a requisição do arquivo em questão, ele é basicamente um banco de dados, podendo ser tanto no conceito de internet ou LAN (ou intranet)</li>
+        <li>DNS (Domain Name Service) - faz a busca do nome do site, acha na lista dele o IP, e depois para o servidor de acordo com o IP</li>
+    </ul>
+    <h4 id="hospedagem">Hospedagem de Sites</h4>
+    <p>
+        Mas o que seria a hospefagem de site?
+        <br>
+        Seria colocar os seus arquivos do site, em um servidor na internet, para os clientes acessarem.
+    </p>
+    <p>
+        Dependendo do plano e empresa, podemos contratar com vários sites para hospedagem, com ou sem registro de domínio, só de e-mail, com ou sem multiplataforma (Windows ou Linus), com ou sem certificado SSL (conexão segura), podendo ser uma requisição HTTP, ou HTTPS (requisição criptografada, sendo mais segura que a HTTP).
+    </p>
+    <p>
+        Após fazer todos os passos, como o endereço e registrou o DNS, precisamos subir o site para o servidor, e pra isso, vamos precisar usar o FTP (File Transfer Protocol), que é basicamente uma conexão para enviarmos e recebermos arquivos, então, após contratar a empresa de hospedagem, registrarmos o site, a empresa que nós contratamos, vai liberar um acesso FTP pra gente. Por exemplo o Filezilla, que poderemos, enviar o arquivo HTML que criamos e transferir para o Filezilla.
+    </p>
+    <h3 id="html-linguagem">HTML - Linguagem de Programação? <small><a href="#inicio">(Voltar)</a></h3>
+    <p>
+        Para entendermos melhor este título, e saber responder, precisamos passar por algumas etapas de aprendizado, então vamos lá!!&#x1F680&#x1F680&#x1F680
+    </p>
+    <h4 id="linguage-de-programacao">O que é Uma Linguagem de Programação</h4>
+    <p>
+        Linguagem de Programação é uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas (softwares), podendo ser divididas em 2 lados, <strong>Server-Side</strong> e <strong>Client-Side</strong>
+    </p>
+    <h4 id="client-side">Client-side</h4>
+    <p>
+        As linguagens <strong>Cliet-side</strong>, são para dar estrutura ao site, ou seja, elas vão trazer um estilo mais bonito, e tentar trazer para o cliente, uma certa autônomia visual.
+    </p>
+    <p>
+        Um dos principais exemplos de linguagem <strong>Client-Side</strong> é o <strong><font color="orange">JavaScript</font></strong>.
+    </p>
+    <p>
+        Graças a criação da Engine V8 do Google, os navegadores conseguem interpretar o JavaScript, tanto no Server-side, quanto no Client-side, ou seja o V8 é um mecanismo de execução e interpretação desta linguagem. E com isso, criaram, o Node JS, que a grosso modo, é como se fosse um navegador, só que sem as janelas, ele é um programa que executa o V8 por baixo, onde é instalado no servidor, para que o V8 rode o JavaScript.
+    </p>
+    <h4 id="server-side">Server-side</h4>
+    <p>
+        As linguagens <strong>Server-side</strong>, são utilizadas para criar a estrutura internar do site, criando um banco de dado, lógica, e muito mais.
+        <br>
+        Vamos parafrasear, para entender melhor o contexto, assim como o <strong>Client-side</strong> seriam as paredes e decoração de uma casa, o <strong>Server-side</strong>, seria como a tubulação de água e ligações elétricas, para deixar a casa funcional.
+    </p>
+    <p>
+        Exemplo de linguagens server-side mais usadas:
+    </p>
+    <ul>
+        <li>PHP</li>
+        <li>Ruby</li>
+        <li>C#</li>
+        <li>Java</li>
+        <li>JavaScript (funciona muito bem dos dois lados)</li>
+    </ul>
+    <p>
+        Cada linguagem possui suas particularidades, portanto é importante estudar elas de acordo com o que você precisa, mas:
+    </p>
+    <ul>
+        <li>Cada linguagem tem a sua característica</li>
+        <li>Aprenda ao menos uma linguagem de cada "lado da força"</li>
+        <li>Prefira aquela em que a comunidade é mais engajada</li>
+        <li>Experimente!</li>
+    </ul>
+    <h4 id="html-nao">HTML Não é Linguagem de Programação!</h4>
+    <p>
+        <font color="red"><strong>HTML</strong> é uma linguagem de programação?</font>
+        <br>
+        <ul>
+            <li><strong><font color="red">Não</font></strong>. HTML não é linguagem de programação!</li>
+            <li>HTML é um arquivo de marcação.</li>
+            <li>Textos delimitados por nomes que o navegador consegue interpretar.</li>
+            <li>Cada nome destes delimitadores, tem uma função e comportamento específico.</li>
+        </ul>
+        <p>
+            Por exemplo, temos o arquivo CSV, que também é um arquivo de marcação, onde no CSV seria assim:
+            <br>
+            <pre>
+                <code>
+                    ID;Nome;Idade;Email<br>
+                    1;Maria Lucia;43;maria@dio.me<br>
+                    2;Jorge Almeida;23;jorge@dio.me
+                </code>
+            </pre>
+            <blockquote>
+                E com esse padrão de marcação, o <i><font color="blue">;</font></i> seria a marcação de delimitação, sendo cada informação sendo como se fosse uma coluna.
+            </blockquote>
+        </p>
+        <p>
+            Já um exemplo de HTML seria assim:
+            <br>
+            <pre>
+                <code>
+                    <font color="blue"> &lt;p&gt;</font>
+                        Eu curto demais a <font color="blue">&lt;strong&gt;&lt;i&gt;</font>DIO!<font color="blue">&lt;/strong&gt;&lt;/i&gt;</font>
+                    <font color="blue"> &lt;/p&gt;</font>
+                </code>
+            </pre>
+            <blockquote>
+                E o resultado seria:
+                <br><p>
+                    Eu curto demais a <strong><i>DIO!</i></strong>
+                </p>
+            </blockquote>
+        </p>
+    </p>
+    <h2 id="HTML">HTML na Prática <small><a href="#inicio">(Voltar)</a></small></h2>
+    <h3 id="introducao-html">Introdução ao HTML na Prática <small><a href="#inicio">(Voltar)</a></small></h3>
+    <h4 id="apresentacao">Apresentando o Conteúdo</h4>
+    <h5><font color="red"><strong>Trilha</strong></font></h5>
+    <ul>
+        <li>Ferramentas Utilizadas</li>
+        <li>Inspetor de Elementos</li>
+        <li>Estrutura Básica do HTML</li>
+        <li>Falando Sobre Tags</li>
+        <li>Atributos das Tags</li>
+        <li>Textos</li>
+        <li>Listas Ordenadas e Não Ordenadas</li>
+        <li>Links</li>
+    </ul>
+    <h5><font color="red"><strong>Objetivo do Conteúdo</strong></font></h5>
+    <p>
+        Aprender a instalar e configurar o ambiente de desenvolvimento. Entender o funcionamento do inspetor de elementos do navegador e criar a sua primeira página HTML.
+    </p>
+    <h4 id="ferramentas">Ferramentas Utilizadas</h4>
+    <ul>
+        <li>Visual Studio Code</li>
+        <li>Bloco de Notas</li>
+        <li>Chrome (ou outro navegador de sua preferência, na minha escolhi o Edge)</li>
+    </ul>
+    <h4 id="inspetor">Inspetor de Elementos</h4>
+    <p>
+        Essa é uma das principais ferramentas usadas, e já vem inclusa nos navegadores, para acessar essa ferramenta, basta apertar o F12, nela você poderá ver todos os elementos daquela página, ou seja, poderemos ver como ela foi criada, quais foram os códigos HTML usados, e ter uma base de como montar outra página, ou só pra estudar.
+        <br>Nele conseguimos mexer nos elementos todos da página, para podermos ter uma noção de como fazer, e quais foram as Tags usadas.
+    </p>
+    <h4 id="estrutura">Estrutura Básica do HTML</h4>
+    <p>
+        O HTML consiste em 3 partes, onde a primeira seria o <strong><font color="gray">&lt;</font><font color="blue">html</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/html</font><font color="gray">&gt;</font></strong>, depois o <strong><font color="gray">&lt;</font><font color="blue">head</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/head</font><font color="gray">&gt;</font></strong>, e por último o <strong><font color="gray">&lt;</font><font color="blue">body</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/body</font><font color="gray">&gt;</font></strong>,toda tag que formos colocar no HTML, terá os sinais de <strong><font color="blue"><</font></strong> e <strong><font color="blue">></font></strong>, e um nome dentro dela, sendo o comando que tiver o símbolo <strong><font color="blue">/</font></strong>, é a tag de fechamento.
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">
+            &lt;html&gt;
+                &lt;head&gt;&lt;/head&gt;
+                &lt;body&gt;
+
+                &lt;/body&gt;
+            &lt;/html>
+        </font>
+        </strong>
+        </code>
+    </pre>
+    <p>
+        Tudo que estiver no meio do <strong><font color="gray">&lt;</font><font color="blue">body</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/body</font><font color="gray">&gt;</font></strong>, é o que vai aparecer para o usuário, no <strong><font color="gray">&lt;</font><font color="blue">head</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/head</font><font color="gray">&gt;</font></strong>, que seria o cabeçalho, são coisas que ele vai carregar antes de exibir para o usuário, dentro deste, temos uma tag que mostra o título da página que vamos usar, que seria o <strong><font color="gray">&lt;</font><font color="blue">title</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/title</font><font color="gray">&gt;</font></strong>, e na tag <strong><font color="gray">&lt;</font><font color="blue">html</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/html</font><font color="gray">&gt;</font></strong>, quer dizer que tudo que esta dentro dela, vai ser um arquivo HTML.
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">
+            &lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+
+                &lt;/body&gt;
+            &lt;/html>
+        </font>
+        </strong>
+        </code>
+    </pre>
+    <h4 id="falando-tags">Falando Sobre Tags</h4>
+    <p>
+        As tags para o HTML, são as marcações usadas, para limitar, modificar, entre outras opções os textos do HTML, por exemplo a tag <strong><font color="gray">&lt;</font><font color="blue">i</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/i</font><font color="gray">&gt;</font></strong>, que deixa o texto em itálico, lembrando que para a tag funcionar, deve ser colocado o texto, sempre entre a abertura e o fechamento da tag.
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;i&gt;</font><font color="white">Meu primeiro HTML!</font><font color="pink">&lt;/i&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <p>
+        Onde o resultado seria “<i>Meu Primeiro HTML</i>”.
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;strong&gt;</font><font color="white">Meu primeiro HTML!</font><font color="pink">&lt;/strong&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <p>
+        Onde o resultado seria “<strong>Meu Primeiro HTML</strong>”.
+    </p>
+    <p>
+        Ou se quisermos colocar as duas tags, é só colocar o texto no meio delas:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;strong&gt;&lt;i&gt;</font><font color="white">Meu primeiro HTML!</font><font color="pink">&lt;/i&gt;&lt;/strong&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <p>
+        Onde o resultado seria "<strong><i>Meu primeiro HTML!</i></strong>"
+    </p>
+    <p>
+        E podemos deixar tudo em negrito, e só a sigla HTML em itálico:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;strong&gt;</font><font color="white">Meu primeiro <font color="pink">&lt;i&gt;</font>HTML!</font><font color="pink">&lt;/i&gt;&lt;/strong&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <p>
+        E o resultado é “<strong>Meu Primeiro <i>HTML!</i></strong>”
+    </p>
+    <p>
+        Mas nem todas as tags tem fechamento, por exemplo a tag <strong><font color="gray">&lt;</font><font color="blue">input</font><font color="gray">&gt;</font></strong>, ele por si, já é um campo, por exemplo:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;strong&gt;</font><font color="white">Meu primeiro <font color="pink">&lt;i&gt;</font>HTML!</font><font color="pink">&lt;/i&gt;&lt;/strong&gt;
+                    &lt;input <font color="yellow">type</font><font color="blue">="text"</font>&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <p>
+        Que vai criar um campo para digitação dentro do HTML:
+    </p>
+    <p>
+        <strong>Meu Primeiro <i>HTML!</i></strong>
+        <input type="text">
+    </p>
+    <p>
+        Outro exemplo seria a tag <strong><font color="gray">&lt;</font><font color="blue">img</font><font color="gray">&gt;</font></strong>, que tambem não possui fechamento.
+    </p>
+    <h4 id="atributos-tags">Atributos das Tags</h4>
+    <p>
+        Atributos, são configurações que usamos dentro das tags, para mudar o comportamento delas.
+        <br>
+        Basicamente, são propriedades que colocamos nas tags, para modificar algumas configurações, podendo ser atributos globais, ou mais específicos.
+        <br>
+        Por exemplo, dentro da tag <strong><font color="gray">&lt;</font><font color="blue">strong</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/strong</font><font color="gray">&gt;</font></strong>, podemos colocar o atributo <font color="blue">id</font>, no caso, ele irá categorizar um elemento, ou grupo de elementos, para que possamos mexer em todos de uma vez, sendo usado principalmente como um identificador.
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;strong <font color="green">id</font><font color="blue">="título"</font>&gt;</font><font color="white">Meu primeiro <font color="pink">&lt;i&gt;</font>HTML!</font><font color="pink">&lt;/i&gt;&lt;/strong&gt;
+                    &lt;input <font color="yellow">type</font><font color="blue">="text"</font>&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        Fazendo com que toda vez que pesquisamos o <font color="blue">id</font> "título", sempre localize esse, ou os outros títulos que colocamos o mesmo <font color="blue">id</font>.
+    </blockquote>
+    <p>
+        Outra tag, seria a <font color="blue">style</font>, que pode nos auxiliar, colocando elementos de estilo, como se fosse o CSS, dentro do próprio HTML:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;strong <font color="green">style</font><font color="blue">="color: blue;"</font>&gt;</font><font color="white">Meu primeiro <font color="pink">&lt;i&gt;</font>HTML!</font><font color="pink">&lt;/i&gt;&lt;/strong&gt;
+                    &lt;input <font color="yellow">type</font><font color="blue">="text"</font>&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <p>
+        Que vai trazer o seguinte resultado:
+    </p>
+    <blockquote>
+        <strong style="color: blue;">Meu primeiro <i>HTML!</i></strong>
+        <input type="text">
+    </blockquote>
+    <p>
+        E outro atributo de CSS que podemos implementar direto no HTML, é o <font color="magenta">class</font>, que vai agrupar alguns elementos para que possamos mudar e configurar eles de uma forma pré-definida:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;strong <font color="green">class</font><font color="blue">="título-principal"</font>&gt;</font><font color="white">Meu primeiro <font color="pink">&lt;i&gt;</font>HTML!</font><font color="pink">&lt;/i&gt;&lt;/strong&gt;
+                    &lt;input <font color="yellow">type</font><font color="blue">="text"</font>&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        A partir daí, todos os itens que estiverem com a mesma classificaçãos, poderemos confirgurar juntos, de uma só vez.
+    </blockquote>
+    <p>
+        E temos outros atributos que são mais específicos, como os do próprio <strong><font color="gray">&lt;</font><font color="blue">input</font><font color="gray">&gt;</font></strong>, vimos anteriormente o <strong><font color="gray">&lt;</font><font color="blue">input </font><font color="green">type</font>=<font color="magenta">"text"</font><font color="gray">&gt;</font></strong></strong>, que faz um campo texto no HTML, só que podemos usar outro, como o <font color="blue">"number"</font>, que vai trazer um campo para inserir um numero.
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;strong <font color="green">class</font><font color="blue">="título-principal"</font>&gt;</font><font color="white">Meu primeiro <font color="pink">&lt;i&gt;</font>HTML!</font><font color="pink">&lt;/i&gt;&lt;/strong&gt;
+                    &lt;input <font color="yellow">type</font><font color="blue">="number"</font>&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <p>
+        Que vai ficar assim:
+    </p>
+    <blockquote>
+        <strong class="título-principal">Meu primeiro <i>HTML!</i></strong>
+        <input type="number">
+    </blockquote>
+    <p>
+        E um outro atributo bem curioso, seria o <font color="magenta">"color"</font>, que vai abrir um seletor de cor:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;strong <font color="green">class</font><font color="blue">="título-principal"</font>&gt;</font><font color="white">Meu primeiro <font color="pink">&lt;i&gt;</font>HTML!</font><font color="pink">&lt;/i&gt;&lt;/strong&gt;
+                    &lt;input <font color="yellow">type</font><font color="blue">="color"</font>&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        <strong class="título-principal">Meu primeiro <i>HTML!</i></strong>
+        <input type="color">
+    </blockquote>
+    <p>
+        Os atributos mais comuns de serem usados na tag <font color="blue">input</font>, vão ser o <font color="magenta">"text</font> e o <font color="magenta">"number"</font>.
+    </p>
+    <br>
+    <p>
+        E um atributo muito importante que será usado, é o da tag <strong><font color="gray">&lt;</font><font color="blue">img</font><font color="gray">&gt;</font></strong>, ela mesma não funciona sem os atributos, e para que ela funcione corretamente, precisaremos usar o atributo <strong><font color="blue">src</font>=<font color="magenta">""</font></strong>, onde dentro das áspas, podemos colocar o endereço de uma imagem, sendo de uma pasta, ou um link de imagem:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;strong <font color="green">class</font><font color="blue">="título-principal"</font>&gt;</font><font color="white">Meu primeiro <font color="pink">&lt;i&gt;</font>HTML!</font><font color="pink">&lt;/i&gt;&lt;/strong&gt;
+                    &lt;input <font color="yellow">type</font><font color="blue"></font><font color="blue">="text"</font>&gt;
+                    &lt;img <font color="yellow">src</font><font color="blue">="https://th.bing.com/th/id/OIP.iocNgHJ8Zv57RtXqt2Bs5AHaE8?w=270&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7"</font>&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        <strong class="título-principal">Meu primeiro <i>HTML!</i></strong>
+        <input type="text">
+        <img src="https://th.bing.com/th/id/OIP.iocNgHJ8Zv57RtXqt2Bs5AHaE8?w=270&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+    </blockquote>
+    <p>
+        E para configuararmos até o tamanho da imagem, temos o atributo <strong><font color="blue">width</font>=<font color="magenta">""</font></strong>, que vai ser utilizado para modificar a largura:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;strong <font color="green">class</font><font color="blue">="título-principal"</font>&gt;</font><font color="white">Meu primeiro <font color="pink">&lt;i&gt;</font>HTML!</font><font color="pink">&lt;/i&gt;&lt;/strong&gt;
+                    &lt;input <font color="green">type</font><font color="blue">="text"</font>&gt;
+                    &lt;img <font color="green">width</font><font color="blue">="280"</font> <font color="green">src</font><font color="blue">="https://th.bing.com/th/id/OIP.iocNgHJ8Zv57RtXqt2Bs5AHaE8?w=270&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7"</font>&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        <strong class="título-principal">Meu primeiro <i>HTML!</i></strong>
+        <input type="text">
+        <img width="280" src="https://th.bing.com/th/id/OIP.iocNgHJ8Zv57RtXqt2Bs5AHaE8?w=270&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+    </blockquote>
+    <h4 id="textos">Textos</h4>
+    <p>
+        Primeira tag a ser aprendida na produção de textos é a <strong><font color="gray">&lt;</font><font color="blue">h1</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/h1</font><font color="gray">&gt;</font></strong>, que significa header, ou título, onde esta mesma tag pode ser elaborada até o h6, em que cada número representa um grau de título, subtítulo, …
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;</font><font color="white">DIO.me</font><font color="pink">&lt;/h1&gt;
+                    &lt;h2&gt;</font><font color="white">Implemente o seu futuro global agora!</font><font color="pink">&lt;/h2&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        <h1>DIO.me</h1>
+        <h2>Implemente o seu futuro global agora!</h2>
+    </blockquote>
+    <p>
+        Basicamente tudo que for título, vamos colocar na tag H.
+        <br>
+        Agora quando formos colocar um novo parágrafo, usaremos a tag <strong><font color="gray">&lt;</font><font color="blue">p</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/p</font><font color="gray">&gt;</font></strong>, e para cada novo parágrafo que formos abrir, sempre colocar uma nova tag P:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;</font><font color="white">DIO.me</font><font color="pink">&lt;/h1&gt;
+                    &lt;h2&gt;</font><font color="white">Implemente o seu futuro global agora!</font><font color="pink">&lt;/h2&gt;
+                    &lt;p&gt;</font>
+                        <font color="white">Implemente o seu futuro global agora!</font>
+                    <font color="pink">&lt;/p&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        <h1>DIO.me</h1>
+        <h2>Implemente o seu futuro global agora!</h2>
+        <p>
+          Domine as tecnologias utilizadas pelas empresas mais inovadoras do mundo e encare seu novo desafio profissional, evoluindo em comunidade com os melhores experts.  
+        </p>
+    </blockquote>
+    <p>
+        O próprio navegador cria a formatação, direto do arquivo HTML, mas podemos mudar de acordo com o CSS que vamos usar, que é o mais recomendável.
+    </p>
+    <p>
+        Caso você queira colocar uma citação de um livro, por exemplo, também temos como colocar está opção, basta colocar a tag <strong><font color="gray">&lt;</font><font color="blue">blockquote</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/blockquote</font><font color="gray">&gt;</font></strong>, assim o navegador vai reconhecer como uma citação o texto que você colocar:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;</font><font color="white">DIO.me</font><font color="pink">&lt;/h1&gt;
+                    &lt;h2&gt;</font><font color="white">Implemente o seu futuro global agora!</font><font color="pink">&lt;/h2&gt;
+                    &lt;p&gt;</font>
+                        <font color="white">Implemente o seu futuro global agora!</font>
+                    <font color="pink">&lt;/p&gt;
+                    &lt;blockquote&gt;</font><font color="white">O jeito DIO._ para você ganhar destaque mais rápido no mercado.</font><font color="pink">&lt;/blockquote&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        <h1>DIO.me</h1>
+        <h2>Implemente o seu futuro global agora!</h2>
+        <p>
+          Domine as tecnologias utilizadas pelas empresas mais inovadoras do mundo e encare seu novo desafio profissional, evoluindo em comunidade com os melhores experts.  
+        </p>
+        <blockquote>O jeito DIO._ para você ganhar destaque mais rápido no mercado.</blockquote>
+    </blockquote>
+    <p>
+        Ele meio que desprende do texto todo, e deixa mais pro lado, pra dar um visual diferente
+    </p>
+    <p>
+        Durante a elaboração do texto podemos modificar algumas formas do que queremos, por exemplo, colocando algumas palavras em especifico em negrito, com a tag <strong><font color="gray">&lt;</font><font color="blue">strong</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/strong</font><font color="gray">&gt;</font></strong>, com a tag <strong><font color="gray">&lt;</font><font color="blue">u</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/u</font><font color="gray">&gt;</font></strong>, que significa underline (ou a grosso modo modo “linha embaixo”), podemos colocar sublinhado, colocar a nossa citação em itálico com a tag <strong><font color="gray">&lt;</font><font color="blue">i</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/i</font><font color="gray">&gt;</font></strong>, destacar uma parte do texto com a tag <strong><font color="gray">&lt;</font><font color="blue">mark</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/mark</font><font color="gray">&gt;</font></strong>, para que ela fica como se fosse grifada com um marca texto, e lá em tecnologias, também colocar um asterisco para dar um destaque ainda maior e colocar como se tivesse uma anotação no rodapé da página com a tag <strong><font color="gray">&lt;</font><font color="blue">sup</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/sup</font><font color="gray">&gt;</font></strong>:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;</font><font color="white">DIO.me</font><font color="pink">&lt;/h1&gt;
+                    &lt;h2&gt;</font><font color="white">Implemente o seu futuro global agora!</font><font color="pink">&lt;/h2&gt;
+                    &lt;p&gt;</font>
+                        <font color="white">Domine as <font color="pink">&lt;strong&gt;&lt;u&gt;</font>tecnologias<font color="pink">&lt;/strong&gt;&lt;/u&gt;</font>utilizadas pelas empresas 
+                        mais inovadoras do mundo e encare seu novo desafio profissional, evoluindo 
+                        em comunidade com os melhores experts.</font>
+                    <font color="pink">&lt;/p&gt;
+                    &lt;blockquote&gt;
+                        &lt;i&gt;</font><font color="white">O jeito DIO._ para você ganhar destaque mais rápido no mercado.</font><font color="pink">&lt;/i&gt;
+                    &lt;/blockquote&gt;
+                    &lt;h2&gt;</font><font color="white">Aprenda tecnologias emergentes</font><font color="pink">&lt;/h2&gt;
+                    &lt;p&gt;</font>
+                        <font color="white">Os nossos cursos e programas de formação são criados em conjunto com 
+                        especialistas das empresas <font color="pink">&lt;mark&gt;</font>mais inovadoras do mundo<font color="pink">&lt;/mark&gt;</font>, aplicando 
+                        uma metodologia para que você domine as tecnologias utilizadas no mercado e 
+                        também mergulhe nas novas e mais atuais tecnologias que impactarão o futuro 
+                        dos negócios digitais.</font>
+                    <font color="pink">&lt;/p&gt;
+                    &lt;h2&gt;</font><font color="white">Pratique com desafios de códigos</font><font color="pink">&lt;/h2&gt;
+                    &lt;p&gt;</font>
+                        <font color="white">Potencializamos o seu talento e primoramos as suas habilidades de pensamento 
+                        computacional e resolução de desafios reais através de experiências práticas 
+                        de codificação em nossa plataforma personalizada e exclusiva.</font>
+                    <font color="pink">&lt;/p&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        <h1>DIO.me</h1>
+        <h2>Implemente o seu futuro global agora!</h2>
+        <p>
+          Domine as <strong><u>tecnologias</u><sup>*</sup></strong> utilizadas pelas empresas mais inovadoras do mundo e encare seu novo desafio profissional, evoluindo em comunidade com os melhores experts.  
+        </p>
+        <blockquote>
+            <i>O jeito DIO._ para você ganhar destaque mais rápido no mercado.</i>
+        </blockquote>
+        <h2>
+            Aprenda tecnologias emergentes
+        </h2>
+        <p>
+            Os nossos cursos e programas de formação são criados em conjunto com especialistas das empresas <mark>mais inovadoras do mundo</mark>, aplicando uma metodologia para que você domine as tecnologias utilizadas no mercado e também mergulhe nas novas e mais atuais tecnologias que impactarão o futuro dos negócios digitais.
+        </p>
+        <h2>
+            Pratique com desafios de códigos
+        </h2>
+        <p>
+            Potencializamos o seu talento e primoramos as suas habilidades de pensamento computacional e resolução de desafios reais através de experiências práticas de codificação em nossa plataforma personalizada e exclusiva
+        </p>
+    </blockquote>
+    <p>
+        Incrivel tudo que podemos fazer com algumas tags e atributos nos lugares corretos, não é mesmo?
+    </p>
+    <h4 id="listas">Listas Ordenadas e Não Ordenadas</h4>
+    <h5>Lista Ordenada - Ordened List</h5>
+    <p>
+        A tag para as listas ordenadas vai ser <strong><font color="gray">&lt;</font><font color="blue">ol</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/ol</font><font color="gray">&gt;</font></strong>, está lista não aceita que coloquemos qualquer texto no meio dela, ela precisa de “tags filhas”, no caso, ela precisa ser implementada com a tag <strong><font color="gray">&lt;</font><font color="blue">li</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/li</font><font color="gray">&gt;</font></strong>, que seria list item (item da lista), e para cada item que precise por, vamos ter que colocar um novo “<font color="blue">li</font>”, e para “<font color="blue">li</font>” que eu coloque no meio desta tag, ela mesma já inclui uma “ordem” para os itens:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;</font><font color="white">Lista Ordenada</font><font color="pink">&lt;/h1&gt;
+                    &lt;ol&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="white">Item 1</font><font color="pink">&lt;/li&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="white">Item 2</font><font color="pink">&lt;/li&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="white">Item 3</font><font color="pink">&lt;/li&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="white">Item 4</font><font color="pink">&lt;/li&gt;</font>
+                    <font color="pink">&lt;/ol&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        <h1>Lista Ordenada</h1>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ol>
+    </blockquote>
+    <p>
+        E dentro dela, podemos colocar outras listas, ordenadas ou não:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;</font><font color="white">Lista Ordenada</font><font color="pink">&lt;/h1&gt;
+                    <font color="pink">&lt;ol&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="white">Item 1</font><font color="pink">&lt;/li&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="white">Item 2</font><font color="pink">&lt;/li&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="white">Item 3</font><font color="pink">&lt;/li&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="white">Item 4</font><font color="pink">&lt;/li&gt;</font>
+                        &lt;ol&gt;</font>
+                            <font color="pink">&lt;li&gt;</font><font color="white">Item 4.1</font><font color="pink">&lt;/li&gt;</font>
+                            <font color="pink">&lt;li&gt;</font><font color="white">Item 4.2</font><font color="pink">&lt;/li&gt;</font>
+                            <font color="pink">&lt;li&gt;</font><font color="white">Item 4.3</font><font color="pink">&lt;/li&gt;</font>
+                            <font color="pink">&lt;li&gt;</font><font color="white">Item 4.4</font><font color="pink">&lt;/li&gt;</font>
+                        <font color="pink">&lt;/ol&gt;</font>
+                    <font color="pink">&lt;/ol&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        <h1>Lista Ordenada</h1>
+                    <ol>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                        <ol>
+                            <li>Item 4.1</li>
+                            <li>Item 4.2</li>
+                            <li>Item 4.3</li>
+                            <li>Item 4.4</li>
+                        </ol>
+                    </ol>
+        <p>
+            Usada principalmente para sumários, por exemplo, mas via CSS, é usado principalmente para menus.
+        </p>
+    </blockquote>
+    <h5>Listas Não Ordenadas - Unordened List</h5>
+    <p>
+        A que tag será <strong><font color="gray">&lt;</font><font color="blue">ul</font><font color="gray">&gt;</font><font color="gray">&lt;</font><font color="blue">/ul</font><font color="gray">&gt;</font></strong>, que significa unordered list (lista não ordenada), nessa opção ao invés de ser números, ou letras, aqui vão ser marcadores:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;</font><font color="white">Lista Não Ordenada</font><font color="pink">&lt;/h1&gt;
+                    &lt;ul&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="white">Item 1</font><font color="pink">&lt;/li&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="white">Item 2</font><font color="pink">&lt;/li&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="white">Item 3</font><font color="pink">&lt;/li&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="white">Item 4</font><font color="pink">&lt;/li&gt;</font>
+                    <font color="pink">&lt;/ul&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        <h1>Lista Não Ordenada</h1>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+    </blockquote>
+    <h4 id="links">Links</h4>
+    <ul>
+        <li>Link - ligação, ou seja, quando acessamos um link em uma página na internet, estamos criando uma ligação entre uma página e outra.</li>
+    </ul>
+    <p>
+        No caso do HTML, vamos usar a tag ancor (âncora), do conceito de ir para algum lugar em específico, ou seja, estamos ancorando em algum lugar, e a tag será <strong>&lt;<font color="blue">a</font> <font color="green">href</font>=<font color="pink">"”</font>&gt;&lt;<font color="blue">/a</font>&gt;</strong>, onde no meio das aspas, vamos colocar o link do site, e no meio da tag, a explicação de onde o link vai dar, por exemplo o nome do site:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;</font><font color="white">Meu Primeiro Site</font><font color="pink">&lt;/h1&gt;
+                    &lt;ul&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="pink">&lt;a <font color="green">href</font><font color="blue">="http://dio.me"</font>&gt;</font><font color="white">Dio.me</font><font color="pink">&lt;/a&gt;&lt;/li&gt;</font>
+                    <font color="pink">&lt;/ul&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        <h1>Meu Primeiro Site</h1>
+        <ul>
+            <li><a href="http://dio.me">Dio.me</a></li>
+        </ul>
+    </blockquote>
+    <p>
+        E um atributo muito interessante, que podemos usar dentro da tag “a”, é o <strong><font color="green">target</font>=<font color="pink">"”</font></strong>, que vai abrir 4 opções, mas vamos usar apenas 2 opções, sendo elas o <font color="pink">"_self”</font>, que já é o padrão usado pelo HTML, e o <font color="pink">"_blank”</font>, que vai abrir uma nova aba, quando atribuirmos a tag “a”.
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;</font><font color="white">Meu Primeiro Site</font><font color="pink">&lt;/h1&gt;
+                    &lt;ul&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="pink">&lt;a <font color="green">href</font><font color="blue">="http://dio.me"</font> <font color="green">target</font><font color="blue">="_blank"</font>&gt;</font><font color="white">Dio.me</font><font color="pink">&lt;/a&gt;&lt;/li&gt;</font>
+                    <font color="pink">&lt;/ul&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        <h1>Meu Primeiro Site</h1>
+        <ul>
+            <li><a href="http://dio.me" target="_blank">Dio.me</a></li>
+        </ul>
+    </blockquote>
+    <p>
+        E um outro atributo interessante, é o <strong><font color="green">title</font>=<font color="pink">"”</font></strong>, que vai trazer a informação que colocarmos nele, amostra quando passarem o mouse por cima, conhecido como touch tip:
+    </p>
+    <pre style="background-color: dimgray;">
+        <code>
+            <strong>
+            <font color="pink">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</font><font color="white">Meu Primeiro HTML</font><font color="pink">&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;</font><font color="white">Meu Primeiro Site</font><font color="pink">&lt;/h1&gt;
+                    &lt;ul&gt;</font>
+                        <font color="pink">&lt;li&gt;</font><font color="pink">&lt;a <font color="green">href</font><font color="blue">="http://dio.me"</font> <font color="green">title</font><font color="blue">="Clique aqui"</font> <font color="green">target</font><font color="blue">="_blank"</font>&gt;</font><font color="white">Dio.me</font><font color="pink">&lt;/a&gt;&lt;/li&gt;</font>
+                    <font color="pink">&lt;/ul&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;</font>
+        </strong>
+        </code>
+    </pre>
+    <blockquote>
+        <h1>Meu Primeiro Site</h1>
+        <ul>
+            <li><a href="http://dio.me" title="Clique aqui" target="_blank">Dio.me</a></li>
+        </ul>
+    </blockquote>
+    <a href="#inicio">(Voltar)</a>
+</body>
+</html>
