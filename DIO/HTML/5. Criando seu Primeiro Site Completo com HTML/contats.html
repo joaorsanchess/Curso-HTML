@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+    <link rel="stylesheet" href="Base CSS/base.css">
+    <style>
+      .footer {
+        text-align: center;
+      }
+
+      .newsletter {
+        text-align: center;
+      }
+      
+      .button {
+        background-color: #FFFFFF;
+        border: 1px solid rgb(209,213,219);
+        border-radius: .5rem;
+        box-sizing: border-box;
+        color: #111827;
+        font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: .875rem;
+        font-weight: 600;
+        line-height: 0.0rem;
+        padding: .75rem 1rem;
+        text-align: center;
+        text-decoration: none #D1D5DB solid;
+        text-decoration-thickness: auto;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+
+      .row{
+        margin: 5px;
+      }
+
+      label {
+        width: 100px;
+        text-align: right;
+        display: inline-block;
+        padding-right: 5px;
+      }
+
+      fieldset {
+        margin: 5px 0;
+        border-radius: 10px;
+        border-color: rgb(0, 0, 0);
+      }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="about.html">Sobre a Clínica</a></li>
+                <li><a href="time.html">Horário de Atendimento</a></li>
+                <li><a href="contats.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="Images/header-contats.jpg" alt="" width="1000">
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <h1>Fale com o Instituto Serenidade</h1>
+                <p>
+                  <img src="Icons/whatsapp.png" alt="Whatsapp" height="20"> +1 123 87689-8712
+                  <br>
+                  <img src="Icons/telephone.png" alt="Telefone" height="20"> +1 123 99999-9653
+                  <br>
+                  <img src="Icons/email.png" alt="E-mail" height="20"> faleconosco@institutoserenidade.com
+                </p>
+                <h1>Onde estamos</h1>
+                <a href="https://www.google.com/maps/place/67+Elm+St,+Crystal+Lake,+IL+60014,+EUA/@42.2389548,-88.3331294,17z/data=!3m1!4b1!4m6!3m5!1s0x880f6d5c77e2f0e7:0xeb2dce97173a22a5!8m2!3d42.2389509!4d-88.3305545!16s%2Fg%2F11c29b6499?entry=ttu" target="_blank" title="Clique aqui e veja onde estamos">67 Elm St, Crystal Lake, IL 60014, EUA</a>
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2953.8529318440433!2d-88.33312942470546!3d42.238954842745315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f6d5c77e2f0e7%3A0xeb2dce97173a22a5!2s67%20Elm%20St%2C%20Crystal%20Lake%2C%20IL%2060014%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1706233750645!5m2!1spt-BR!2sbr" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br>
+                <form action="get">
+                  <fieldset>
+                    <legend>Qual a sua pergunta?</legend>
+                    <div class="row">
+                      <label>Nome:</label><input type="text" name="name"><br>
+                      <label>E-mail:</label><input type="text" name="email"><br>
+                      <label>Assunto:</label><input type="text" name="assunto"><br>
+                      <label>Mensagem:</label><textarea name="message" cols="50" row="50"></textarea>
+                    </div>
+                    <div>
+                      <button type="submit" onclick="alert(`Formulário enviado, logo retornaremos o contato!`)">Enviar formulário</button>
+                      <button type="reset">Limpar</button>
+                    </div>
+                  </fieldset>
+                </form>
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <br>
+                <table width="600" align="center">
+                  <tr>
+                    <th>LINKS</th>
+                    <th>NEWSLETTER</th>
+                    <th>CONTACT</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="about.html">Quem somos</a>
+                    </td>
+                    <td><input type="text" class="newsletter"></td>
+                    <td>67, Elm Street, ANOELS 6</td>
+                  </tr>
+                  <tr>
+                    <td><a href="time.html">Nossos horários</a></td>
+                    <td><button class="button">Inscrever-se</button></td>
+                    <td>Crystal Lake, Illinois, EUA</td>
+                  </tr>
+                  <tr>
+                    <td><a href="contats.html">Nossos Contatos</a></td>
+                    <td></td>
+                    <td><img src="Icons/facebook.png" alt="Facebook" height="15"> <img src="Icons/instagram.png" alt="Instagram" height="15"> <img src="Icons/twitter-x.png" alt="Twitter-X" height="15"> <img src="Icons/telegram.png" alt="Telegram" height="15"> <img src="Icons/whatsapp.png" alt="Whatsapp" height="15"></td>
+                  </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

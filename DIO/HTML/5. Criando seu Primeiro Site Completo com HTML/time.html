@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos horários e valores</title>
+    <link rel="stylesheet" href="Base CSS/base.css">
+    <style>
+      .footer {
+        text-align: center;
+      }
+
+      .newsletter {
+        text-align: center;
+      }
+      
+      .button {
+        background-color: #FFFFFF;
+        border: 1px solid rgb(209,213,219);
+        border-radius: .5rem;
+        box-sizing: border-box;
+        color: #111827;
+        font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: .875rem;
+        font-weight: 600;
+        line-height: 0.0rem;
+        padding: .75rem 1rem;
+        text-align: center;
+        text-decoration: none #D1D5DB solid;
+        text-decoration-thickness: auto;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.051);
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+      
+      .content table {
+        border: solid 1px black;
+        text-align: center;
+        border: solid 1px black;
+        -webkit-box-shadow: 21px 14px 24px -3px rgba(0,0,0,0.32);
+        -moz-box-shadow: 21px 14px 24px -3px rgba(0,0,0,0.32);
+        box-shadow: 21px 14px 24px -3px rgba(0,0,0,0.32);
+      }
+
+      .content table thead th {
+        background-color: #87cefa;
+      }
+
+      .content table tbody tr:nth-child(even) td {
+        background-color: #d4edfd;
+      }
+
+      .content table tbody tr:hover td {
+        background-color: #87ceeb;
+      }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="about.html">Sobre a Clínica</a></li>
+                <li><a href="time.html">Horário de Atendimento</a></li>
+                <li><a href="contats.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="Images/relogio.jpg" alt="Foto de um relógio do instituto Serenidade" width="1000">
+            </div>
+    
+            <div class="content">
+                Content
+                <!-- Aqui vai o seu conteúdo -->
+                <h1>Nossos Serviços</h1>
+                <ol>
+                  <li><strong>Avaliação Clínica:</strong></li>
+                  <ul>
+                    <li>Realização de avaliações abrangentes por profissionais qualificados para entender as necessidades específicas de cada indivíduo.</li>
+                  </ul>
+                  <li><strong>Plano de Tratamento Personalizado:</strong></li>
+                  <ul>
+                    <li>Desenvolvimento de planos de tratamento individualizados, adaptados às necessidades únicas de cada residente, com abordagens terapêuticas variadas.</li>
+                  </ul>
+                  <li><strong>Educação em Saúde Mental</strong></li>
+                  <ul>
+                    <li>Programas educacionais para residentes e familiares, visando aumentar a compreensão sobre questões de saúde mental e reduzir o estigma associado.</li>
+                  </ul>
+                </ol>
+                <table summary="Tabela com serviços e preços"  class="price" width="340" align="center" cellspacing="1" cellpadding="3">
+                  <thead>
+                    <tr>
+                      <th>Serviço</th>
+                      <th>Valor</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Avaliação clínica</td>
+                      <td>R$ 150,00</td>
+                    </tr>
+                    <tr>
+                      <td>Plano de tratamento personalizado</td>
+                      <td>R$ 600,00</td>
+                    </tr>
+                    <tr>
+                      <td>Educação em Saúde Mental</td>
+                      <td>R$ 200,00</td>
+                    </tr>
+                  </tbody>
+                  <tbody></tbody>
+                </table>
+                <br>
+                <table classs="time" width=550" align="center" cellspacing="1" cellpadding="3">
+                  <thead>
+                    <tr>
+                      <th>Serviços</th>
+                      <th>Segunda a Sexta</th>
+                      <th>Sábados</th>
+                      <th>Feriados</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Atendimento</td>
+                      <td>08h - 18h</td>
+                      <td>08h - 14h</td>
+                      <td>08h - 14h</td>
+                    </tr>
+                    <tr>
+                      <td>Aconselhamento Familiar</td>
+                      <td>19h - 20h</td>
+                      <td>-</td>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <td>Educação em Saúde Mental</td>
+                      <td>-</td>
+                      <td>15:00 - 16:00</td>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <br>
+                <table width="600" align="center">
+                  <tr>
+                    <th>LINKS</th>
+                    <th>NEWSLETTER</th>
+                    <th>CONTACT</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="about.html">Quem somos</a>
+                    </td>
+                    <td><input type="text" class="newsletter"></td>
+                    <td>67, Elm Street, ANOELS 6</td>
+                  </tr>
+                  <tr>
+                    <td><a href="time.html">Nossos horários</a></td>
+                    <td><button class="button">Inscrever-se</button></td>
+                    <td>Crystal Lake, Illinois, EUA</td>
+                  </tr>
+                  <tr>
+                    <td><a href="contats.html">Nossos Contatos</a></td>
+                    <td></td>
+                    <td><img src="Icons/facebook.png" alt="Facebook" height="15"> <img src="Icons/instagram.png" alt="Instagram" height="15"> <img src="Icons/twitter-x.png" alt="Twitter-X" height="15"> <img src="Icons/telegram.png" alt="Telegram" height="15"> <img src="Icons/whatsapp.png" alt="Whatsapp" height="15"></td>
+                  </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
